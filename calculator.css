@@ -1,0 +1,87 @@
+.main
+{
+  display: flex;
+  
+}
+img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+.left_image{
+  height: 200%;
+  width: 50%;
+  object-fit: contain;
+  margin-right: 100px;
+}
+#calculator{
+  margin-top: 130px;
+  padding-top: 25px;
+  border: 2px solid black;
+  width: 350px;
+  height: 570px;
+  border-radius: 10px;
+  border-style:outset;
+  background-image: url(calback.avif);
+}
+#display{
+  margin-top: 15px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  width: 93%;
+  font-size: 18px;
+  font-weight: 500;
+  
+  border-radius: 2px;
+  height: 60px;
+  background-color: azure;
+}
+.button_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  border: none;
+  padding: 0; 
+}
+.button:hover{
+  width: 22%;
+  color: #424242;
+  transition: all;
+}
+
+#sub{
+  display: flex;
+  justify-content: center;
+}
+
+#clear:hover{
+  background-color: red;
+  color: white;
+}
+
+#equal:hover{
+  background-color: lightgreen;
+  color: white;
+}
+.text{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
